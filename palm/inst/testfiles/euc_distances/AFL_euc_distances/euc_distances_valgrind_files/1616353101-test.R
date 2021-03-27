@@ -1,0 +1,3 @@
+testlist <- list(x1 = c(-1.01251474051046e+295, -4.80010791939359e+213, NaN,  Inf), x2 = c(NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, -9.94359987468856e+303,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, 0), y1 = -9.94157601072455e-53, y2 = NaN)
+result <- do.call(palm:::euc_distances,testlist)
+str(result)

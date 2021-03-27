@@ -1,0 +1,3 @@
+testlist <- list(rho = 1.10313045278155e+217, M = NULL, R = NULL, sigma_M = 1.29849269277858e+219,      sigma_R = 3.2271652747366e-115)
+result <- do.call(partialCI:::kalman_gain_par_mr,testlist)
+str(result)

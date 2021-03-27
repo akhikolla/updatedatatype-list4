@@ -1,0 +1,3 @@
+testlist <- list(x = c(7.74860418548935e-304, NA, 7.74860418548935e-304,  NA, 7.74861108452212e-304, 0))
+result <- do.call(genieclust::bonferroni_index,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(xq = numeric(0), xvec = c(NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, 0, NaN, 5.43230922486616e-312, 0, NaN, NaN, -6.85769710633415e+303,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0))
+result <- do.call(protViz:::lower_bound__,testlist)
+str(result)

@@ -1,0 +1,3 @@
+testlist <- list(m = c(NA, -623041264L), n = c(1943973998L, 1393939646L,  303700161L, -2040463644L, -2032476928L, 16425181L, -572662307L,  -572662307L, -572662307L, -625971694L, 1581693952L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L))
+result <- do.call(primes::coprime,testlist)
+str(result)

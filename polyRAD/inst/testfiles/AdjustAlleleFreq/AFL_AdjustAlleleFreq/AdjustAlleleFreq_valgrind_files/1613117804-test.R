@@ -1,0 +1,3 @@
+testlist <- list(alleles2loc = integer(0), minfreq = 0, predAl = structure(c(Inf,  NaN, 7.8856813261494e+82, 3.33695750719512e+50, 2.51138226347259e-85,  7.01141931232325e-69, 9.46719910794908e+234, NaN, 1.66259661550518e+308,  2.46300610324232e-240, 4.69058890096915e-304, 1.3854985023859e+88,  NaN, 5.856498825718e-12, 6.4782439106649e+143), .Dim = c(5L,  3L)))
+result <- do.call(polyRAD:::AdjustAlleleFreq,testlist)
+str(result)

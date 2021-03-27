@@ -1,0 +1,3 @@
+testlist <- list(fps = c(2.91476992157918e-318, -1.76491711548091e+170, 5.40658709104045e-104,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0), sn = numeric(0), sp = numeric(0), tps = c(1.88425334392359e+25,  NaN, NA, -3.74964870995343e+22, -4.81814618033135e+57, 2.99251330571159e-120,  Inf, NA, 0), bins = NULL, x_bins = 0)
+result <- do.call(precrec:::create_roc_curve,testlist)
+str(result)

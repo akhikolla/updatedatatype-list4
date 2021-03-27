@@ -1,0 +1,3 @@
+testlist <- list(X = c(NaN, NaN, NaN, -5.82900682309329e+303, NaN, NaN, NaN,  NaN, NaN, NaN, 8.28904556439245e-317, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0), max = NULL, rho_max = 0)
+result <- do.call(partialCI:::estimate_par_c,testlist)
+str(result)

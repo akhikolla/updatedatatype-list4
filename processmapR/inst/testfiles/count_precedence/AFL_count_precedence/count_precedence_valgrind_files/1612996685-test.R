@@ -1,0 +1,3 @@
+testlist <- list(activities = c(-766835395L, -1791475380L, -1696447701L,  -292542707L, 1015298094L, -70226847L, 1680001486L, 1640861729L,  -2074022486L, -991125197L, -905060359L, -96221961L, 396043699L,  -61980971L, -314383475L, 1557006278L, 915314207L, -2080356353L,  -261336821L, 1738133824L, 1267932143L, 357994123L, -210510041L,  2320666L, -100663296L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L), cases = c("yoaelnebkpdookhvqteq",  "jueq", "vnegcvxsbouklvitwk", NA, "ohgfpuyckjsbpecwhofy", "tpdiknyn",  ""), lead = 0L)
+result <- do.call(processmapR:::count_precedence,testlist)
+str(result)

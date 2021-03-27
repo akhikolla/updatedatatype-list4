@@ -1,0 +1,3 @@
+testlist <- list(m = NULL, altitude_m = c(1.61639820639912e+82, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
+result <- do.call(physiology::pres_atm_kPa,testlist)
+str(result)

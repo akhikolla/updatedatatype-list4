@@ -1,0 +1,3 @@
+testlist <- list(xs = numeric(0), ys = c(NaN, -1.3084018207776e+185, -7.03481928966906e-63,  8.82621440159011e+56, 5.36027684908228e-61, 1.1499152081075e-21,  -1.80965662996365e-150, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN ))
+result <- do.call(precrec:::calc_auc,testlist)
+str(result)

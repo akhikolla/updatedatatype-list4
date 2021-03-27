@@ -1,0 +1,3 @@
+testlist <- list(fps = numeric(0), pr = numeric(0), sn = numeric(0), tps = c(NaN,  NaN, NaN, NaN, NaN, NaN, NaN, NaN, -6.39681132131048e-92, 6.47225996052033e-322,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), bins = NULL, x_bins = 0)
+result <- do.call(precrec:::create_prc_curve,testlist)
+str(result)

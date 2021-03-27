@@ -1,0 +1,3 @@
+testlist <- list(LSI = 0L, p = 0, x = c(7.31782994080462e-304, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0))
+result <- do.call(pvar::pvarC,testlist)
+str(result)
