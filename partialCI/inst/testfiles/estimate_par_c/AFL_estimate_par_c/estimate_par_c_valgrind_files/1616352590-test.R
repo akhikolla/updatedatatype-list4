@@ -1,3 +1,0 @@
-testlist <- list(X = c(-2.45834374590272e+255, -2.45834374590272e+255, -2.45834374590272e+255 ), max = NULL, rho_max = -2.45834374590272e+255)
-result <- do.call(partialCI:::estimate_par_c,testlist)
-str(result)

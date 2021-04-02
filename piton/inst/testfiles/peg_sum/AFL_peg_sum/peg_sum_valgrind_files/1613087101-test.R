@@ -1,3 +1,0 @@
-testlist <- list(x = c("yoawlbljbgyoaaqohlbj", "qoxvgtvrejqbfljmqkfs", "bphsjrtspo",  "mlmjfcopwifubxehaayn", "dmnsxkbalvigxbnzzhbu", "znfxdivizbpaggwlzdrj",  "bbuwxwiftmwkj", "", "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa",  "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa",  "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa",  "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa",  "aaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaa"))
-result <- do.call(piton::peg_sum,testlist)
-str(result)

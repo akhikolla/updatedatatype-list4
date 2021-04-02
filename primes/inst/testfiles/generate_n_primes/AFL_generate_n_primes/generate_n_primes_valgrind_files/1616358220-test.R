@@ -1,3 +1,0 @@
-testlist <- list(n = 15469196L)
-result <- do.call(primes::generate_n_primes,testlist)
-str(result)

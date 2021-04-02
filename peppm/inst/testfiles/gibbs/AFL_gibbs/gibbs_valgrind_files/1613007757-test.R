@@ -1,3 +1,0 @@
-testlist <- list(U0 = integer(0), beta = NULL, rates = NULL, beta = NULL,      rates = NULL, cohesion = 0L, ftgrid = c(-1.02300428508316e-19,      1.97938600164941e+166, 6.85608793630068e-72, -4.25585696714268e-164,      3.608086203835e+151), nburnin = 0L, nlag = 0L, npost = 0L,      status = integer(0), time = c(-3.09079980417296e-168, -3.61691475149731e-213,      6.49335159570589e+116, 2.42327707812275e-315, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0), a_beta = 0, a_rates = 0, b_beta = 0,      b_rates = 0)
-result <- do.call(peppm:::gibbs,testlist)
-str(result)

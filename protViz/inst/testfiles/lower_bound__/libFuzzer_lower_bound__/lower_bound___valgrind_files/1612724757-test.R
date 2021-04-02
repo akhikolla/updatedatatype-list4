@@ -1,3 +1,0 @@
-testlist <- list(xq = c(NaN, 9.29614602983437e+199, Inf, 1.09854853092721e+248,  3.63859461624299e+185, Inf, NaN, 5.28746642650254e-25, 1.59901342982592e-17,  -4.70298324634343e+305, 6.8472694875538e-08, 3.18352276796057e+151,  0), xvec = numeric(0))
-result <- do.call(protViz:::lower_bound__,testlist)
-str(result)

@@ -1,3 +1,0 @@
-testlist <- list(max = -2139062144L, min = 16711680L)
-result <- do.call(primes:::generate_primes_,testlist)
-str(result)

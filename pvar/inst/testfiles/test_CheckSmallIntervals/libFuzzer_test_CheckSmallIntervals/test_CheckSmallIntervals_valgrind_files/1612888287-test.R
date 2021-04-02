@@ -1,3 +1,0 @@
-testlist <- list(dn = 16753663L, p = -9.32855092565042e+304, x = c(2.73687722757675e-312,  NA, -5.82900291954929e+303, -1.05674776999372e-307, -5.82800751574968e+303,  1.59457450398994e+135, 2.90435489720261e-144, NA))
-result <- do.call(pvar:::test_CheckSmallIntervals,testlist)
-str(result)

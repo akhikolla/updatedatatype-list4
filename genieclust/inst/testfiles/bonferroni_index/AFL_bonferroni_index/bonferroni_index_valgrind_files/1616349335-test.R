@@ -1,3 +1,0 @@
-testlist <- list(x = c(NaN, NaN, NaN, NaN, NaN, 7.2911220195564e-304, NaN,  NaN, NaN, NaN, NaN, NaN, -1.79769313484929e+308, NaN, 36893488147419099136,  NaN, NaN, NaN, NaN, -3.24180903818828e+178, NaN, NaN, 7.29111859598144e-304,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
-result <- do.call(genieclust::bonferroni_index,testlist)
-str(result)

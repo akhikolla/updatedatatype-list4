@@ -1,3 +1,0 @@
-testlist <- list(m = c(-1815221204L, 601253144L, -804651186L, 2094331179L,  1901326755L, -1882849024L, NA, 1156041744L, 1340599108L, -406005967L,  398913726L, 303700161L), n = c(0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L))
-result <- do.call(primes::gcd,testlist)
-str(result)

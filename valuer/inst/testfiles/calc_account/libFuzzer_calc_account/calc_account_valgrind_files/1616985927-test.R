@@ -1,0 +1,3 @@
+testlist <- list(barrier = 0, ben = numeric(0), fee = 0, penalty = numeric(0),      spot = c(8.3138050000614e-275, NaN, NaN, NaN, NaN, NaN, NaN,      NaN, NaN, NaN, 5.82508648364645e-316, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0))
+result <- do.call(valuer::calc_account,testlist)
+str(result)

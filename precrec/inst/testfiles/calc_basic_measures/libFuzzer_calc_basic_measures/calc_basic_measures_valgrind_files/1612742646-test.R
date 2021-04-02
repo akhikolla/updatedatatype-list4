@@ -1,3 +1,0 @@
-testlist <- list(fns = numeric(0), fps = numeric(0), nn = 0L, np = 19267584L,      tns = numeric(0), tps = c(6.35567199651579e-310, NaN, NaN,      NaN, 2.48273507542443e-312, NaN, -1.61498223338249e+265,      6.50391017263406e-260, 1.33635333286132e-309, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,      0, 0, 0, 0, 0, 0))
-result <- do.call(precrec:::calc_basic_measures,testlist)
-str(result)

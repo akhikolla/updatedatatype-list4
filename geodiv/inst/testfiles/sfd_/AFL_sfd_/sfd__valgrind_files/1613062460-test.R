@@ -1,3 +1,0 @@
-testlist <- list(mat = structure(c(4.65661649758392e-10, 6.9535680038678e-310,  2.39737855554781e+58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), .Dim = c(5L,  7L)))
-result <- do.call(geodiv::sfd_,testlist)
-str(result)

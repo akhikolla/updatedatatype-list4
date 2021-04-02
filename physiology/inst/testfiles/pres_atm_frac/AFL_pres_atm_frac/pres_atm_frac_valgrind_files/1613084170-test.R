@@ -1,3 +1,0 @@
-testlist <- list(m = NULL, altitude_m = c(4.959142250317e+173, 0, 0, 0, 0,  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0))
-result <- do.call(physiology::pres_atm_frac,testlist)
-str(result)

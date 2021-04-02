@@ -1,3 +1,0 @@
-testlist <- list(p = 0, x = c(1.50860638214531e-314, 0))
-result <- do.call(pvar:::test_prepare_prt,testlist)
-str(result)

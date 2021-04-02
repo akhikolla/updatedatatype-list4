@@ -1,3 +1,0 @@
-testlist <- list(M0 = 0, R0 = 0, Y = c(-8.91387014601471e+303, 1.76692744071203e-284,  9.63275667917507e-72, 1.69925449435487e-314, 0, 0, 0, 0, 0, 0,  0, 0, 0), rho = 0, M = NULL, R = NULL, sigma_M = 0, sigma_R = 0)
-result <- do.call(partialCI:::loglik_par_c,testlist)
-str(result)

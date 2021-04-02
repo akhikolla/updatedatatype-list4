@@ -1,3 +1,0 @@
-testlist <- list(x = c(741092396L, 741092396L, 741092396L, 741092480L, 741092396L,  19672108L, 741092396L, 741092396L, 741092396L, 1075194924L, -687865606L,  740294656L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L,  0L, 0L, 0L, 0L, 0L, 0L, 0L))
-result <- do.call(primes::is_prime,testlist)
-str(result)
